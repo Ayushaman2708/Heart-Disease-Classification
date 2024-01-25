@@ -17,12 +17,12 @@ This repository contains a machine learning project that aims to classify whethe
 Cardiovascular diseases are a leading cause of mortality worldwide. This project addresses the challenge of predicting the likelihood of an individual having a heart disease based on their health conditions. The machine learning model is trained on a dataset containing various features such as age, sex, blood pressure, cholesterol levels, and more.
 
 # Dataset
-The dataset used in this project is sourced from [provide the source or link to the dataset]. It consists of [number of instances] instances and [number of features] features. The target variable is whether the individual has a heart disease (1) or not (0).
+The dataset used in this project is sourced from https://archive.ics.uci.edu/ml/datasets/heart+Disease. The target variable is whether the individual has a heart disease (1) or not (0).
 
 # Dependencies
 Ensure you have the following dependencies installed:
 
-* Python (version 3.x)
+* Python (version 3.3)
 * NumPy
 * Pandas
 * Scikit-learn
@@ -37,17 +37,7 @@ Install the required dependencies:
 bash
 Copy code
 pip install -r requirements.txt
-Usage
-[Provide instructions on how to use the project, including any command-line arguments or configuration files.]
 
-Model Training
-[Explain the process of training the machine learning model. Include details about data preprocessing, feature engineering, and the choice of algorithm.]
-
-Evaluation
-[Describe the metrics used for evaluating the model's performance. Provide insights into the model's accuracy, precision, recall, and any other relevant metrics.]
-
-Results
-[Present and interpret the results obtained from the trained model. Include visualizations if applicable.]
 
 Contributing
 Contributions are welcome! If you find any issues or have suggestions for improvement, please open an issue or create a pull request.
